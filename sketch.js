@@ -24,8 +24,11 @@ function setup() {
 	packageSprite.scale=0.2
 
     w1 = createSprite(400,650,200,20)
-	w2 = createSprite(100,20,50,50)
-	w3 = createSprite(100,40,50,50)
+	w1.shapeColor="red";
+	w2 = createSprite(300,610,20,100)
+	w2.shapeColor="red";
+	w3 = createSprite(500,610,20,100)
+	w3.shapeColor="red";
 
 	helicopterSprite=createSprite(width/2, 200, 10,10);
 	helicopterSprite.addImage(helicopterIMG)
